@@ -1,0 +1,32 @@
+/*foot part*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 12vh;
+  background-color: #f0f0f0;
+  padding: 16px;
+}
+.inner-footer {
+  display: flex;
+  flex-direction: column;
+}
+.inner-footer .nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.inner-footer .nav a {
+  padding-left: 40px;
+  color: rgba(0,0,0,.75);
+  font-size: 1rem;
+}
+.inner-footer .nav a:hover {
+  color: #000;
+}
+.inner-footer .record-number {
+  font-size: 0.8rem;
+  padding-top: 10px;
+  color: rgba(0,0,0,.6);
+  text-align: center;
+}

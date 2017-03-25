@@ -1,0 +1,367 @@
+/*banner area*/
+
+.posts-page .banner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.posts-page .banner .cat {
+  border: 1px solid #8285d6;
+  color: #999;
+  font-size: .7rem;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 20px;
+}
+/*end*/
+
+/*文章页容器*/
+.posts-page .container {
+  max-width: 1200px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+/*end*/
+
+/*文章开头部分*/
+.post .metadata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px  ;
+}
+.post .metadata .title {
+  font-size: 1.5rem;
+}
+.post .metadata .digest {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #323232;
+}
+.post .metadata .author-date {
+  margin-top: 10px;
+  font-size: 0.6rem;
+  color: #999;
+}
+.author-date > span {
+  padding: 0 5px;
+}
+.post .bg-image {
+  width: 100%;
+  height: 400px;
+  background: url('https://raw.githubusercontent.com/youngjingwen/images/master/Big-image.png') no-repeat center center;
+  background-size: cover;
+}
+/*end*/
+
+/*文章主体*/
+.post .main{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+/*end*/
+
+/*文章主体左侧边栏*/
+.post .main .sidebar{
+  width: 40%;
+}
+/*end*/
+
+/*社群分享*/
+
+
+
+.main #share a.bds_weixin{
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  float: none;
+  z-index: 10;
+  background: none;
+  background-size: cover;
+}
+.main #share a.bds_tsina{
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  float: none;
+  z-index: 10;
+  background: none;
+  background-size: cover;
+}
+.main #share a.bds_fbook{
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  float: none;
+  z-index: 10;
+  background: none;
+  background-size: cover;
+}
+.main #share a.bds_twi{
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  float: none;
+  z-index: 10;
+  background: none;
+  background-size: cover;
+}
+.main #share a.bds_mail{
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  float: none;
+  z-index: 10;
+  background: none;
+  background-size: cover;
+}
+.main #share a.bds_evernotecn{
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  float: none;
+  z-index: 10;
+  background: none;
+}
+
+#bdshare_weixin_qrcode_dialog{
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  width: 260px !important;
+  height: 300px !important;
+}
+
+#bdshare_weixin_qrcode_dialog_qr{
+    padding: 5px 10px;
+    min-height: 150px;
+}
+
+#bdshare_weixin_qrcode_dialog .bd_weixin_popup_foot{
+  width: 250px;
+  line-height: 20px;
+  font-size: 0.6rem;
+}
+
+#social-share {
+  width: 100%;
+  display: flex;
+
+  margin-top: 30px;
+}
+#social-share .box{
+  position: relative;
+  flex-grow: 1;
+  border-top: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  border-right: 1px dotted rgba(0, 0, 0, 0.12);
+}
+#social-share .box:first-child{
+  border-left: 1px solid #c8c8c8;
+}
+#social-share .box:last-child{
+  border-right: 1px solid #c8c8c8;
+}
+#social-share a{
+  padding-top: 100%;
+  display: block;
+  z-index: 10;
+}
+#social-share .box svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: -1;
+  }
+#social-share .box:hover{
+  background-color: rgba(0, 0, 0, 0.12);
+}
+/*end*/
+
+/*最新文章*/
+
+.latest-posts {
+  background-color: #fff;
+  border: 1px solid #c8c8c8;
+  margin-top: 30px;
+  padding: 16px;
+}
+.latest-posts .header {
+  color: #323232;
+  text-align: center;
+  font-size: 1.2rem;
+  border-bottom: 3px solid #8285d6;
+  width: 80px;
+  margin: 16px auto 32px;
+}
+.latest-posts .item {
+  display: flex;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.12);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.latest-posts .item:last-child {
+  border-bottom: none;
+}
+.latest-posts .item .thumbnail {
+  width: 180px;
+  height: 120px;
+  background: url('https://raw.githubusercontent.com/youngjingwen/images/master/Big-image.png') no-repeat center center;
+  background-size: cover;
+}
+.latest-posts .item .title {
+  color: #999;
+  font-size: 1rem;
+  padding-left: 8px;
+}
+/*end*/
+
+/*文章主体右侧部分*/
+.post .main .content-right {
+  width: 60%;
+  background-color: #fff;
+  padding: 25px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-right .content {
+  font-size: 1.0rem;
+  line-height: 1.5;
+  color: rgba(0,0,0,.6);
+  min-height: 500px;
+}
+.content-right .author-intro {
+  width: 100%;
+  padding: 16px;
+  margin: 60px auto 0;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  background-color: #f5f6fc;
+}
+.author-intro .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #8285d6;
+}
+
+.author-intro .profile {
+  padding-left: 16px;
+}
+
+.author-intro .name {
+  font-size: 1.1rem;
+  color: #323232;
+}
+.author-intro .intro {
+  font-size: .9rem;
+  line-height: 1.5;
+  padding: 8px 0;
+  color: #999;
+}
+/*end*/
+
+
+/*分隔区域*/
+
+.post-dividing {
+  background-color: rgba(47, 47, 47, 0.98);
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  padding: 0 60px;
+}
+.post-dividing .facebook {
+  width: 40%;
+  height: 230px;
+  background-color: #ebedf3;
+  border-radius: 6px;
+}
+.post-dividing .subscribe {
+  width: 50%;
+  padding: 10px;
+  background-color: #ebedf3;
+  border-radius: 6px;
+}
+.subscribe input {
+  font-size: 1rem;
+  width: 80%;
+  height: 50px;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  color: #999;
+}
+.subscribe input:focus {
+  outline: none;
+}
+.subscribe button {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 10px;
+  background-color: #8285d6;
+  color: #fff;
+}
+.subscribe button:focus {
+  outline: none;
+}
+.subscribe button:hover {
+  cursor: pointer;
+}
+/*end*/
+
+/*下一篇文章概览*/
+
+.next-post {
+  display: none;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #fff;
+}
+.next-post .content {
+  text-align: left;
+  padding: 30px 0;
+  color: rgba(0,0,0,.6);
+}
+.next-post button {
+  margin: 30px 0 60px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 21px;
+  background-color: #8285d6;
+  color: #fff;
+  font-size: 1rem;
+}
+.next-post button:focus {
+  outline: none;
+}
+.next-post button:hover {
+  cursor: pointer;
+}
+
+.next-post-show {
+  display: block;
+}
+/*end*/

@@ -1,0 +1,53 @@
+.home {
+  margin-top: 100px;
+  background-color: #fff;
+  padding: 20px 40px;
+  width: 400px;
+  margin: 100px auto;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+}
+.home .title {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.home .form .block {
+  margin-bottom: 10px;
+}
+.home .form .label {
+  display: block;
+  font-size: .9em;
+  color: rgba(0,0,0,.6);
+  padding-bottom: 10px;
+}
+.home .form .input {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.home .form .input:focus {
+  outline: none;
+}
+.home .form .action {
+  text-align: center;
+}
+.home .form .button {
+  width: 120px;
+  height: 36px;
+  border: none;
+  background-color: #000;
+  font-size: 1em;
+  color: #fff;
+  display: inline-block;
+  margin: 20px auto 0;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.home .form .button:focus {
+  outline: none;
+}
